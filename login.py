@@ -72,6 +72,7 @@ def login():
 		username = input('Username: ')
 		if check_exists(username) == False:
 			print('[!] Account does not exists. Please register or sign in with a created account.')
+			return 
 		else:
 			break
 	
